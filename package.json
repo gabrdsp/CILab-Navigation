@@ -1,12 +1,15 @@
 {
-  "name": "cilab-linktree",
+  "homepage": "https://gabrdsp.github.io/CILab-Navigation",
+  "name": "cilab-navigation",
   "version": "1.0.0",
-  "description": "Linktree para CILab - UFERSA | Links de redes sociais e contato",
+  "description": "CILab - UFERSA | Links de redes sociais e contato",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint src --ext .jsx,.js"
@@ -28,6 +31,7 @@
     "babel-jest": "^29.7.0",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.3.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
