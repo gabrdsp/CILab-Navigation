@@ -3,7 +3,7 @@ export default function Header() {
     <header className="mb-6">
       <div className="mx-auto mb-4 w-24">
         <img
-          src="./public/assets/logo.png"
+          src="./public/assets/img/logo.png"
           alt="Logo do CILab"
           className="w-full h-full object-cover"
         />

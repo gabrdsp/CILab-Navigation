@@ -19,7 +19,7 @@ export default function App() {
               aria-label="Abrir Instagram"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./public/icones/Instagram.svg" alt="" className="w-5 h-5" />
+              <img src="./public/assets/icons/Instagram.svg" alt="" className="w-5 h-5" />
             </a>
 
             <a
@@ -29,7 +29,7 @@ export default function App() {
               aria-label="Abrir GitHub"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./public/icones/Github.svg" alt="" className="w-5 h-5" />
+              <img src="./public/assets/icons/Github.svg" alt="" className="w-5 h-5" />
             </a>
 
             <a
@@ -39,7 +39,7 @@ export default function App() {
               aria-label="Abrir LinkedIn"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./public/icones/LinkedIN.svg" alt="" className="w-5 h-5" />
+              <img src="./public/assets/icons/LinkedIN.svg" alt="" className="w-5 h-5" />
             </a>
 
             <a
@@ -47,7 +47,7 @@ export default function App() {
               aria-label="Abrir E-mail"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./public/icones/Mail.svg" alt="" className="w-5 h-5" />
+              <img src="./public/assets/icons/Mail.svg" alt="" className="w-5 h-5" />
             </a>
           </div>
         </div>
