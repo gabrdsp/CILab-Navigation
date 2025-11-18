@@ -4,7 +4,7 @@ export default function LinkList() {
   const primary = {
     href: "https://cilab-ufersa.github.io/",
     label: "Acesse o nosso site",
-    icon: "./public/assets/icons/Navigation.svg",
+    icon: "./dist/assets/icons/Navigation.svg"
   };
 
   return (
