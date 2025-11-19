@@ -11,6 +11,7 @@ export default function App() {
             <Header />
             <LinkList />
           </div>
+
           <div className="bg-white rounded-b-3xl px-6 py-5 flex items-center justify-center gap-6">
             <a
               href="https://www.instagram.com/cilab.ufersa/"
@@ -19,7 +20,11 @@ export default function App() {
               aria-label="Abrir Instagram"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./dist/assets/icons/Instagram.svg" alt="" className="w-5 h-5" />
+              <img
+                src={`${import.meta.env.BASE_URL}icones/Instagram.svg`}
+                alt="Instagram"
+                className="w-5 h-5"
+              />
             </a>
 
             <a
@@ -29,7 +34,11 @@ export default function App() {
               aria-label="Abrir GitHub"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./dist/assets/icons/Github.svg" alt="" className="w-5 h-5" />
+              <img
+                src={`${import.meta.env.BASE_URL}icones/Github.svg`}
+                alt="GitHub"
+                className="w-5 h-5"
+              />
             </a>
 
             <a
@@ -39,7 +48,11 @@ export default function App() {
               aria-label="Abrir LinkedIn"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./dist/assets/icons/LinkedIN.svg" alt="" className="w-5 h-5" />
+              <img
+                src={`${import.meta.env.BASE_URL}icones/LinkedIN.svg`}
+                alt="LinkedIn"
+                className="w-5 h-5"
+              />
             </a>
 
             <a
@@ -47,7 +60,11 @@ export default function App() {
               aria-label="Abrir E-mail"
               className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-md border border-gray-100"
             >
-              <img src="./dist/assets/icons/Mail.svg" alt="" className="w-5 h-5" />
+              <img
+                src={`${import.meta.env.BASE_URL}icones/Mail.svg`}
+                alt="E-mail"
+                className="w-5 h-5"
+              />
             </a>
           </div>
         </div>
